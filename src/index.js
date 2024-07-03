@@ -15,3 +15,22 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+const  Home= () => {
+const handleClick=()=>{
+  console.log('hello,ninjas');
+}
+const handleClickAgain =(name,e)=>{
+  console.log('hello '+name,e.target);
+}
+
+  return (
+    <div className='home'>
+      <h2>Homepage</h2>
+      <button onClick={handleClick}>click me</button>
+    <button onClick={(e)=>handleClickAgain('mario',e)}>Click me again</button></div>
+    );
+}
+ 
+export default Home;
