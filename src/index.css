@@ -6,7 +6,7 @@ html{
   @apply font-serif scroll-smooth;
 }
 body{
-  @apply box-border bg-gradient-to-r from-white to-gray-800
+  @apply box-border bg-gradient-to-r from-black to-gray-800
   /* @apply box-border bg-gradient-to-r from-blue-900 to-black; */
 }
 .btn-primary{

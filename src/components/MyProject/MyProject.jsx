@@ -42,7 +42,7 @@ const MyProject = () => {
         <h3 className='text-4xl font-semibold text-white'>My
           <span className='text-cyan-200'> Project</span>
         </h3>
-        <p className='mt-2 text-2xl text-gray-600'>My works</p>
+        <p className='mt-2 text-2xl text-gray-200'>My works</p>
       </div>
       <br /><br />
       <div className='relative flex items-center max-w-6xl px-5 mx-auto '>

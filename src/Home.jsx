@@ -10,8 +10,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Home = () => {
   const socialMedia = [
-    { icon: <LinkedInIcon />, link: 'https://www.linkedin.com/in/kavindu-umayangana-875071290/'},
-    { icon: <GitHubIcon />, link: '' },
+    { icon: <LinkedInIcon style={{ color: 'white' }} />, link: 'https://www.linkedin.com/in/kavindu-umayangana-875071290/'},
+    { icon: <GitHubIcon style={{ color: 'white' }} />, link: '' },
     // { icon: <GitHubIcon />, link: 'https://git
   ];
 
@@ -42,7 +42,7 @@ const Home = () => {
            </h4>
           {/* <button className='mt-8 btn-primary'>Contact Me</button> */}
           <h2 className='my-4 text-2xl text-gray-200 text-balance'>Contact Me</h2>
-                            <div className='flex items-center justify-center gap-10 mt-8 text-3xl md:justify-start'>
+                            <div className='flex items-center justify-center gap-10 mt-8 text-3xl md:justify-start '>
                                    {socialMedia.map(({ icon, link }) => (
                                    <a key={link} href={link} target='_blank' rel='noopener noreferrer'>
                                    {icon}
